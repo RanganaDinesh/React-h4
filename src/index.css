@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar {
+  background-color: rgb(22, 22, 137);
+  margin-top: 0px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+.links {
+  color: #fff;
+  text-decoration: none;
+}
+.data-table {
+  margin: 3rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0.2rem;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.student-form {
+  /* width: max-content; */
+  /* height: min(25rem); */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 10% 20%;
+  margin: auto;
+}
