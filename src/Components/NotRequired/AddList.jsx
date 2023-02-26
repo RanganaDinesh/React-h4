@@ -30,20 +30,7 @@ const AddStudent = (props) => {
     setAddFormData(newFormData);
   };
 
-  // const handleAddFormSubmit = (event) => {
-  //   event.preventDefault();
 
-  //   const newStudent = {
-  //     Id: nanoid(),
-  //     Name: addFormData.Name,
-  //     Age: addFormData.Age,
-  //     Course: addFormData.Course,
-  //     Batch: addFormData.Batch,
-  //   };
-
-  //   const newStudents = [...students, newStudent];
-  //   setStudents(newStudents);
-  // };
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -58,7 +45,7 @@ const AddStudent = (props) => {
 
     const newStudents = [...students, newStudent];
     setStudents(newStudents);
-    // navigate("/StudentsBuild");
+   
   };
 
   return (
