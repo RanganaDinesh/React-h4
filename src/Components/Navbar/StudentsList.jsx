@@ -194,10 +194,10 @@ const StudentsBuild = (props) => {
       <Outlet />
 
       {/* New Student Form */}
-      <Dialog open={addForm} onClose={handleAddClose} >
-        <div className="student-form" >
+      <Dialog open={addForm} onClose={handleAddClose} id='popup'>
+        <div className="student-form"id='popup' >
           <form onSubmit={handleAddFormSubmit}>
-            <Grid container spacing={4}>
+            <Grid container spacing={4} >
               <Grid item xs={6}>
                 <TextField
                   type="text"
@@ -245,7 +245,7 @@ const StudentsBuild = (props) => {
             </Grid>
             
           
-            <Stack spacing={10} direction="row" margin={4}>
+            <Stack spacing={10} direction="row" margin={4} >
               <Button
                 onClick={handleAddClose}
                 variant="outlined"
