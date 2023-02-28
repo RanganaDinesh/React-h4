@@ -8,12 +8,12 @@ const Navbar = () => {
       <nav className="navbar">
         <ul>
           <li>
-            <NavLink className="links" to="/">
+            <NavLink className="links" to="/" style={{marginRight:'500px'}}>
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink className="links" to="/StudentsBuild">
+            <NavLink className="links" to="/StudentsBuild" style={{marginRight:'500px'}}>
               Students
             </NavLink>
           </li>
