@@ -1,28 +1,28 @@
 [
     {
       "Id": 1,
-      "Name": "Aashish",
+      "Name": "Dinesh",
       "Age": 24,
       "Course": "MERN",
       "Batch": "June"
     },
     {
       "Id": 2,
-      "Name": "Ankit",
+      "Name": "Karthik",
       "Age": 23,
       "Course": "MERN",
       "Batch": "September"
     },
     {
       "Id":3,
-      "Name": "Sanjana",
-      "Age": 62,
+      "Name": "Dharshana",
+      "Age": 32,
       "Course": "MERN",
       "Batch": "August"
     },
     {
       "Id":4,
-      "Name": "Rohit",
+      "Name": "Reeka",
       "Age": 30,
       "Course": "MERN",
       "Batch": "July"
