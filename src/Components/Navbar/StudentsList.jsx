@@ -194,8 +194,8 @@ const StudentsBuild = (props) => {
       <Outlet />
 
       {/* New Student Form */}
-      <Dialog open={addForm} onClose={handleAddClose}>
-        <div className="student-form">
+      <Dialog open={addForm} onClose={handleAddClose} >
+        <div className="student-form" >
           <form onSubmit={handleAddFormSubmit}>
             <Grid container spacing={4}>
               <Grid item xs={6}>
