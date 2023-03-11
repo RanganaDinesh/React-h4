@@ -5,7 +5,7 @@ import { Outlet, NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar" id='dinu'>
+      <nav className="navbar" id='dinubg'>
         <ul>
           <li>
             <NavLink className="links" to="/" style={{marginRight:'700px'}}>
