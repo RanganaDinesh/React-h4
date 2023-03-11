@@ -53,7 +53,6 @@ const AddStudent = (props) => {
       <form onSubmit={(e) => onSubmit(e)}>
         <TextField
           type="text"
-          // classsName="textfield"
           id="outlined-basic"
           name="Name"
           label="Name"
@@ -64,7 +63,6 @@ const AddStudent = (props) => {
         />
         <TextField
           type="text"
-          // classsName="textfield"
           id="outlined-basic"
           name="Age"
           label="Age"
@@ -75,7 +73,6 @@ const AddStudent = (props) => {
         />
         <TextField
           type="text"
-          // classsName="textfield"
           id="outlined-basic"
           name="Course"
           label="Course"
@@ -86,7 +83,6 @@ const AddStudent = (props) => {
         />
         <TextField
           type="text"
-          // classsName="textfield"
           id="outlined-basic"
           name="Batch"
           label="Batch"
@@ -96,10 +92,10 @@ const AddStudent = (props) => {
           onChange={handleAddFormChange}
         />{" "}
         <br /> <br />
-        <Button variant="outlined" size="large" color="secondary">
+        {/* <Button variant="outlined" size="large" color="secondary">
           Cancel
-        </Button>
-        <Button type="submit" variant="contained" size="large">
+        </Button> */}
+        <Button type="submit" variant="contained" size="large" style={{margin:'150px'}}>
           Submit
         </Button>
        

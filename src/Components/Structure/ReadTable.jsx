@@ -24,5 +24,5 @@ const ReadOnlyRows = ({ student, handleOpen, handleEditClick }) => {
     </>
   );
 };
-
+//
 export default ReadOnlyRows;

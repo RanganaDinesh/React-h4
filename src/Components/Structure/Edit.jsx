@@ -15,10 +15,10 @@ const EditableRow = ({
   handleEditFormSubmit,
 }) => {
   return (
-    <Dialog open={open} onClose={handleClose}>
-      <div className="student-form">
-        <form>
-          <Grid container spacing={4}>
+    <Dialog open={open} onClose={handleClose}  id='popup'>
+      <div className="student-form"  id='popup'>
+        <form >
+          <Grid container spacing={4} >
             <Grid item xs={6}>
               <TextField
                 type="text"
@@ -70,19 +70,20 @@ const EditableRow = ({
             </Grid>
             <br /> <br />
             <Stack spacing={10} direction="row" margin={5}>
-              <Button
+              {/* <Button
                 onClick={handleClose}
                 variant="outlined"
                 size="large"
                 color="secondary"
               >
                 Cancel
-              </Button>
+              </Button> */}
               <Button
                 type="submit"
                 onClick={handleClose}
                 variant="contained"
                 size="large"
+                
               >
                 Update
               </Button>

@@ -73,10 +73,10 @@ const Students = () => {
             </Grid>
           </Grid>{" "}
           <Stack spacing={10} direction="row" margin={15}>
-            <Button onClick={handleSubmit} variant="outlined" size="large" color="error">
+            {/* <Button onClick={handleSubmit} variant="outlined" size="large" color="error">
               Cancel
-            </Button>
-            <Button onClick={handleSubmit} variant="contained" size="large">
+            </Button> */}
+            <Button onClick={handleSubmit} variant="contained" size="large" style={{margin:'150px'}}>
               Submit
             </Button>
           </Stack>

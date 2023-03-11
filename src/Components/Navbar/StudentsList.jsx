@@ -143,6 +143,10 @@ const StudentsBuild = (props) => {
 
   return (
     <>
+      
+
+      {/* /  need to add student detail/ */}
+
       <div className="data-table">
         <header className="header">
           <span className="title">Students Details</span>
@@ -155,12 +159,12 @@ const StudentsBuild = (props) => {
           <TableContainer component={Paper}>
             <Table sx={{ minWidth: 450 }} aria-label="simple table">
               <TableHead>
-                <TableRow>
-                  <TableCell>Name</TableCell>
-                  <TableCell align="right">Age</TableCell>
-                  <TableCell align="right">Course</TableCell>
-                  <TableCell align="right">Batch</TableCell>
-                  <TableCell align="right">Change</TableCell>
+                <TableRow id='dinubg'>
+                  <TableCell id='dinubgtext'>Name</TableCell>
+                  <TableCell align="right" id='dinubgtext'>Age</TableCell>
+                  <TableCell align="right" id='dinubgtext'>Course</TableCell>
+                  <TableCell align="right" id='dinubgtext'>Batch</TableCell>
+                  <TableCell align="right" id='dinubgtext'>Change</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -246,19 +250,13 @@ const StudentsBuild = (props) => {
             
           
             <Stack spacing={10} direction="row" margin={4} >
-              <Button
-                onClick={handleAddClose}
-                variant="outlined"
-                size="large"
-                color="secondary"
-              >
-                Cancel
-              </Button>
+            
               <Button
                 type="submit"
                 onClick={handleAddClose}
                 variant="contained"
                 size="large"
+                
               >
                 Submit
               </Button>
@@ -267,12 +265,7 @@ const StudentsBuild = (props) => {
         </div>
       </Dialog>
 
-      {/* <EditableRows
-        open={editForm}
-        handleClose={handleEditClose}
-        handleAddFormSubmit={handleAddFormSubmit}
-        handleAddFormChange={handleAddFormChange}
-      /> */}
+     
     </>
   );
 };
